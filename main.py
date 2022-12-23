@@ -4,10 +4,8 @@
 # Paddle uses block class
 
 from turtle import Screen
-from Blocks import Paddle, Board
-from UI import UI, Score
-from Ball import Ball
 from time import sleep
+from breakout import Paddle, Board, UI, Score, Ball
 
 WIDTH = 500
 HEIGHT = 600
